@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom"
 
 const ButtomNavigation = () => {
   return (
-    <div className="flex justify-evenly items-center h-[96px] fixed buttom-0 w-full bg-[#DDDDDD]">
+    <div className="flex flex-row justify-evenly items-center fixed bottom-0 w-full h-[60px] bg-[#DDDDDD]">
         <NavLink to={'/recipes'}>
             <HomeIcon className="size-[24px]" />
         </NavLink >
